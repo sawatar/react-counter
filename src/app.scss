@@ -1,0 +1,31 @@
+:root{
+    --primary-color: #4e80f3;
+    --secondary-color: #2858c5;
+}
+.root {
+    display: flex;
+    justify-content: center; 
+    h2 {
+        text-align: center;
+    }
+    h1 {
+    text-align: center;     
+    }
+}
+.increment,.descrement{
+    padding: 9px 15px;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 10px 1px var(--primary-color);
+    font-size: 18px;
+    margin: 0 10px;
+    &:hover{
+        cursor: pointer;
+        background-color: var(--secondary-color);
+        transition: .3s all ease;
+    }
+}
+
+
